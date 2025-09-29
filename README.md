@@ -11,7 +11,6 @@ A simple desktop application that captures live webcam video and applies **real-
 - **Brightness Control** via slider
 - **Quit Button** to cleanly exit the application
 
-![Live Demo](assets/screenshot.png)
 
 ---
 
@@ -51,17 +50,6 @@ python app.py
 
 ---
 
-## 📂 Project Structure
-
-```text
-├── app.py             # Main application code
-├── requirements.txt   # Python dependencies
-└── assets/
-    └── screenshot.png # Example screenshot
-```
-
----
-
 ## 🛠️ Customization
 
 - **Resolution**: Edit the `cv2.resize()` dimensions in `display_frame()`
@@ -76,13 +64,7 @@ python app.py
 - **Tkinter Errors**: On Linux, install via `sudo apt install python3-tk`
 - **Performance**: Reduce resize resolution or increase `after()` delay in `update()`
 
----
 
-## 📜 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
-
----
 
 ## 📝 requirements.txt
 
